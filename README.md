@@ -73,12 +73,12 @@ Add line in view php file in head
 ```
 Add line in view php file in body
 ```
- <div id="example"></div>
+  <div id="example"></div>
 ```
 import all your new components in app.js file 
 example.js component will already be imported
 ```
-require('./components/example');
+  require('./components/example');
 ```
 run laravel 
 
