@@ -11,6 +11,8 @@ A laravel project using react UI
 ## Cloning this project
 ```bash
   git clone https://github.com/Wasayshaikh/laravel-react.git
+```
+```bash
   cd my-project
 ```
 ```bash
@@ -25,6 +27,7 @@ A laravel project using react UI
 ```bash
   Run php artisan key:generate.
 ```
+create Database and set the database credentials in .env file
 ```bash
   Run php artisan migrate.
 ```
