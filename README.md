@@ -22,17 +22,17 @@ A laravel project using react UI
   npm install
 ```
 ```bash
-  Run cp .env.example .env.
+  copy .env.example .env
 ```
 ```bash
-  Run php artisan key:generate.
+  php artisan key:generate
 ```
 create Database and set the database credentials in .env file
 ```bash
-  Run php artisan migrate.
+  php artisan migrate
 ```
 ```bash
-  Run php artisan serve.
+  php artisan serve
 ```
 
 
