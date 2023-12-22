@@ -45,7 +45,7 @@ OR
 ```
 
 ```bash
-cd example-app
+  cd example-app
 ```
   Install Laravel UI
 ```bash
