@@ -13,7 +13,7 @@ A laravel project using react UI
   git clone https://github.com/Wasayshaikh/laravel-react.git
 ```
 ```bash
-  cd my-project
+  cd laravel-react
 ```
 ```bash
   composer install
