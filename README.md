@@ -38,7 +38,7 @@ create Database and set the database credentials in .env file
 
 ## Creating New laravel project with react UI
 ### Install Laravel
-global install laravel
+laravel already installed globally 
 ```bash
   laravel new example-app
 ```
