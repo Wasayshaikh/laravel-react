@@ -17,19 +17,19 @@ A laravel project using react UI
   composer install
 ```
 ```bash
- npm install
+  npm install
 ```
 ```bash
-Run cp .env.example .env.
+  Run cp .env.example .env.
 ```
 ```bash
-Run php artisan key:generate.
+  Run php artisan key:generate.
 ```
 ```bash
-Run php artisan migrate.
+  Run php artisan migrate.
 ```
 ```bash
-Run php artisan serve.
+  Run php artisan serve.
 ```
 
 
@@ -37,23 +37,23 @@ Run php artisan serve.
 ### Install Laravel
 global install laravel
 ```bash
-laravel new example-app
+  laravel new example-app
 ```
 OR
 ```bash
-composer create-project laravel/laravel example-app
+  composer create-project laravel/laravel example-app
 ```
 
 ```bash
 cd example-app
 ```
-Install Laravel UI
+  Install Laravel UI
 ```bash
-composer require laravel/ui
+  composer require laravel/ui
 ```
 Run artisan for install react
 ```bash
- php artisan ui react
+  php artisan ui react
 ```
 Install node module
 ```bash
@@ -62,6 +62,15 @@ Install node module
 Compile the react code
 ```bash
   run dev
+```
+Add line in view php file in head
+```
+  <link rel="stylesheet" href="{{url('css/app.css')}}">
+  <script src="{{url('js/app.js')}}"></script>
+```
+Add line in view php file in body
+```
+ <div id="example"></div>
 ```
 run laravel 
 ```bash
