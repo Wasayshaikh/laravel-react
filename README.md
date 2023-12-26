@@ -77,7 +77,7 @@ Add line in view php file in body
 ```
 import all your new components in app.js file 
 example.js component will already be imported
-```php
+```javascript
   require('./components/example');
 ```
 run laravel 
