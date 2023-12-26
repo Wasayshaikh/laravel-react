@@ -67,17 +67,17 @@ Compile the react code
   run dev
 ```
 Add line in view php file in head
-```
+```html
   <link rel="stylesheet" href="{{url('css/app.css')}}">
   <script src="{{url('js/app.js')}}"></script>
 ```
 Add line in view php file in body
-```
+```html
   <div id="example"></div>
 ```
 import all your new components in app.js file 
 example.js component will already be imported
-```
+```php
   require('./components/example');
 ```
 run laravel 
