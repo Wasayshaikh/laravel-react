@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{url('css/tailwind.css')}}">
    
 </head>
-<body>
+<body class="bg-[#faf7f7]">
 @include('partials.header')
 @yield('header')
 </body>
