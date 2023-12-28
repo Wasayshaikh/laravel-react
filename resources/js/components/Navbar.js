@@ -5,6 +5,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { Home } from './Home';
 import { About } from './About';
 import axios from 'axios';
+import { Test } from './Test';
 function Navbar() {
   useEffect(async () => {
     
@@ -40,7 +41,7 @@ function Navbar() {
             <Link to="/home" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
               home
             </Link>
-            <Link to="/home" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
               home
             </Link>
             <a href="product" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
@@ -57,6 +58,7 @@ function Navbar() {
         <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/product' element={<Test />} />
         </Routes>
       
       </>
@@ -64,11 +66,11 @@ function Navbar() {
 }
 
 export default Navbar;
-if (document.getElementById('nav-bar')) {
+if (document.getElementById('app')) {
     ReactDOM.render(
     <StrictMode>
       <BrowserRouter>
         <Navbar />
         </BrowserRouter>
-    </StrictMode>, document.getElementById('nav-bar'));
+    </StrictMode>, document.getElementById('app'));
 }
