@@ -11,6 +11,10 @@
 <body class="bg-[#faf7f7]">
 @include('partials.header')
 @yield('header')
+<!-- <div class="wrapper sm:w-full md:w-[720px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px]  x m-auto px-4 sm:px-0"> -->
+<div class="wrapper sm:w-full md:w-[720px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px]  x m-auto px-4 sm:px-0">
+@yield('content')
+</div>
 </body>
 <script src="{{url('js/app.js')}}"></script>
 </html>
