@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/react', function () {
-    return view('index');
-});
+Route::get('{any?}', function () {
+   return view('index');
+})->where('path', '.*');;
